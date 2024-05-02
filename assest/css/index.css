@@ -1,0 +1,83 @@
+/* navbar  */
+.navbar {
+    /* border-bottom: 5px solid rgb(0, 94, 255); */
+    box-shadow: 0 2px 7px rgb(0, 94, 255);
+}
+
+/* landing  */
+header {
+    min-height: 100vh;
+    /* background:linear-gradient(rgba(255, 166, 0, 0.3) , rgba(255, 166, 0, 0.3)) , url(../images/head_bg.jpg); */
+    background: url('../images/landing.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* services  */
+.services{
+    position: relative;
+    background-color: white;
+    padding: 70px 20px 30px 20px;
+    height: 470px;
+}
+.services img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -40px;
+    left: 40%;
+}
+.learn-service{
+    position: absolute;
+    bottom: 10px;
+    left: 38%;
+}
+/* team  */
+.team-photo{
+    width: 100%;
+    height: 500px;
+}
+i{
+    transition: 0.3s;
+    width: 50px;
+    height: 50px;
+}
+.fa-twitter:hover{
+    transition: 0.3s;
+    color: lightblue;
+}
+.fa-facebook:hover{
+    transition: 0.3s;
+    color: blue;
+}
+.fa-instagram:hover{
+    transition: 0.3s;
+    color: blueviolet;
+}
+.fa-whatsapp:hover{
+    transition: 0.3s;
+    color: lightgreen;
+}
+
+/* plans  */
+.plans-div{
+    height: 450px;
+}
+.plans-div >div {
+    height: 100%;
+}
+.custom-plan:hover{
+    cursor: pointer;
+}
+/* footer  */
+.social-icons i{
+    font-size: 23px;
+}
